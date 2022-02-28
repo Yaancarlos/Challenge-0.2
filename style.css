@@ -1,0 +1,258 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: #fff;
+}
+
+
+header {
+    padding: 25px 0;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    border-bottom: 1px solid rgba(95, 104, 112, 0.322);
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 20px;
+    letter-spacing: 2px;
+    transition: color .3s, background .3s, padding .3s, border-radius .3s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    background: #0d6efd;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+.logo-header {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 25vw;
+}
+
+.main-content h1 {
+    font-weight: lighter;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #212529;
+}
+
+.main-content p {
+    font-size: 20px;
+    color: #6c757d;
+    text-align: center;
+    line-height: 1.8;
+}
+
+.cards {
+    width: 295px;
+    height: 327px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.048);
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    transition: margin .5s, border 0.5s;
+}
+
+.cards-container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 15vw;
+    margin-bottom: 30px;
+}
+
+.cards p{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    font-size: 25px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: #212529;
+    border-radius: 5px 5px 0 0;
+    background: #00000008;
+}
+
+.info-card {
+    padding: 16px;
+    border-top: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.info-card-small {
+    color: #6c757d;
+    font-weight: lighter;
+}
+
+.info-card h1 {
+    width: 100%;
+    margin: 0 0 8px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.info-card ul {
+    list-style: none;
+    padding: 16px 0;
+    margin-bottom: 5px;
+}
+
+.info-card ul li {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.info-card button {
+    width: 100%;
+    padding: 8px 16px;
+    font-size: 20px;
+    color: #0d6efd;
+    background: #fff;
+    border: 1px solid #0d6efd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background .5s, color .5s;
+}
+
+.info-card button:hover {
+    background: #0d6efd;
+    color: #fff;
+}
+
+.cards:hover {
+    margin-top: -20px;
+    border: 1px solid #0d6efd;
+}
+
+main h2{
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 68vw;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 8vh;
+}
+
+td{
+    border-bottom: 1px solid #6c757d41;
+    padding: 8px 30px;
+    text-align: center;
+}
+
+th{
+    border-bottom: 1px solid #6c757d41;
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.table-row1{
+    border-top: 2px solid black;
+}
+
+.table-row2 {
+    border-bottom: 2px solid #000;
+}
+.head-row {
+    padding: 10px 0;
+    text-align: center;
+}
+
+body table tr td {
+    color: #000;
+    font-weight: 500;
+}
+
+.footer {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 70vw;
+    padding: 2vh;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+}
+
+.footer-target{
+    position: relative;
+    padding: 0 20px;
+    width: 25%;
+}
+
+.footer-target h5 {
+    font-size: 20px;
+    margin: 0 0 8px;
+    color: #212529;
+}
+
+.footer-target ul {
+    list-style: none;
+}
+
+.footer-target ul li a {
+    line-height: 1.8;
+    text-decoration: none;
+    color: #6c757db4;
+}
+
+.footer-targe {
+    position: relative;
+    width: 25%;
+}
+
+.footer-targe img {
+    max-width: 50px;
+}
+
+.footer-targe p {
+    font-size: 14px;
+    color: #6c757db4;
+}
